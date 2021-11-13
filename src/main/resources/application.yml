@@ -3,7 +3,7 @@ management:
     web:
       exposure:
         include: "*"
-server:
+#server:
 #  servlet:
 #    context-path: auto
 #  port: 8181

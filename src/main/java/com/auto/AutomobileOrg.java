@@ -20,8 +20,8 @@ public class AutomobileOrg extends SpringBootServletInitializer {
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
         return builder.sources(AutomobileOrg.class);
     }
-//    public static void main(String[] args) {
-//        SpringApplication.run(AutomobileOrg.class, args);
-//    }
+    public static void main(String[] args) {
+        SpringApplication.run(AutomobileOrg.class, args);
+    }
 
 }
